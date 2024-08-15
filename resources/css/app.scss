@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+    @apply no-underline uppercase py-3 px-6 rounded-full text-sm;
+}
+
+
+@tailwind utilities;
+
+.signup-banner {
+    background-image: radial-gradient(circle at 0 100%, #6585b0, #2e4469);
+}
+
+.container {
+    height: 400px;
+    background-image: url('/public/images/clock-240.png'), url('/public/images/books-120.png'), url('/public/images/tools-120.png');
+    background-repeat: no-repeat;
+    background-position: 0 100%, 0 0, 100% 100%;
+}
+    

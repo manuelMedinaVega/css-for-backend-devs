@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+    @apply no-underline uppercase py-3 px-6 rounded-full text-sm;
+}
+
+.btn-blue {
+    @apply bg-blue-500 text-white ;
+}
+
+@tailwind utilities;
+
+body.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+    

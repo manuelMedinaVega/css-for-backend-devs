@@ -1,0 +1,44 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #222222
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 30px;
+}
+
+body.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row,
+.flex {
+    display: flex;
+}
+
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+}
+
+.box {
+    background: #e3e3e3;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
